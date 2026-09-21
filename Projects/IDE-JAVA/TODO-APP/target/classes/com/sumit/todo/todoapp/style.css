@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+    -fx-background-color: #f5f7fa;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e0e0e0;
+}
+
+.list-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #eeeeee transparent;
+    -fx-padding: 10px;
+}
+
+.list-cell:hover {
+    -fx-background-color: #f7f9fc;
+}
+
+.button {
+    -fx-padding: 9px 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 7px;
+}
+
+.text-field,
+.combo-box,
+.date-picker,
+.text-area {
+    -fx-background-radius: 7px;
+    -fx-border-radius: 7px;
+    -fx-border-color: #d5d9df;
+    -fx-background-color: white;
+}
+
+.text-field:focused,
+.combo-box:focused,
+.date-picker:focused,
+.text-area:focused {
+    -fx-border-color: #4f7cff;
+}
